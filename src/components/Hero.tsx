@@ -86,17 +86,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-8 left-8 z-40 flex flex-col items-center gap-3">
-        <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
+      <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-40 flex justify-center">
+        <div className="w-48 h-32 flex items-center justify-center">
           <img
-            src="/Screenshot 2025-11-15 132907.png"
-            alt="Jothom Logo"
-            className="w-16 h-16 object-cover"
+            src="/Jothomconlogo.PNG"
+            alt="Jothom Construction Logo"
+            className="w-full h-full object-contain"
           />
-        </div>
-        <div className="text-4xl font-semibold tracking-tight">
-          <span className="text-white">JOTHOM</span>
-          <span className="text-gray-300">.</span>
         </div>
       </div>
     </section>
