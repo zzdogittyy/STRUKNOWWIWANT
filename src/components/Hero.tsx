@@ -11,17 +11,17 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-[#c4c4c4]">
-      <div className="absolute inset-0 opacity-100">
+    <section className="relative h-screen overflow-hidden bg-blue-50">
+      <div className="absolute inset-0">
         <img
-          src="/high-resolution-concrete-wall-textured-background-38968053.webp"
-          alt="Concrete Texture"
+          src="/jothoheroback copy.JPG"
+          alt="Construction Blueprint Background"
           className="w-full h-full object-cover"
         />
       </div>
 
       <div
-        className="absolute inset-0 bg-gradient-to-b from-gray-900/70 via-gray-900/60 to-gray-900/70 z-10"
+        className="absolute inset-0 bg-gradient-to-b from-gray-900/75 via-gray-900/70 to-gray-900/75 z-10"
         style={{ transform: `translateY(${scrollY * 0.5}px)` }}
       />
 
@@ -52,29 +52,29 @@ const Hero = () => {
 
           <div className="mb-4 flex items-center justify-center gap-4">
             <div className="h-px w-12 bg-gray-300" />
-            <span className="text-gray-200 tracking-[0.3em] text-sm font-light uppercase">Est. 2017</span>
+            <span className="text-gray-200 tracking-[0.3em] text-sm font-light uppercase drop-shadow-md" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>Est. 2017</span>
             <div className="h-px w-12 bg-gray-300" />
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight mb-6 leading-tight text-white">
-            <span className="block text-reveal" style={{ animationDelay: '0.2s' }}>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight mb-6 leading-tight text-white drop-shadow-2xl">
+            <span className="block text-reveal" style={{ animationDelay: '0.2s', textShadow: '0 4px 12px rgba(0, 0, 0, 0.8)' }}>
               BUILDING THE
             </span>
-            <span className="block text-reveal bg-gradient-to-r from-gray-100 via-gray-300 to-gray-100 bg-clip-text text-transparent" style={{ animationDelay: '0.4s' }}>
+            <span className="block text-reveal bg-gradient-to-r from-gray-100 via-gray-300 to-gray-100 bg-clip-text text-transparent" style={{ animationDelay: '0.4s', textShadow: '0 4px 12px rgba(0, 0, 0, 0.8)' }}>
               FUTURE
             </span>
-            <span className="block text-gray-300 text-reveal" style={{ animationDelay: '0.6s' }}>
+            <span className="block text-gray-300 text-reveal" style={{ animationDelay: '0.6s', textShadow: '0 4px 12px rgba(0, 0, 0, 0.8)' }}>
               WITH PRECISION
             </span>
           </h1>
 
           <div className="h-px w-32 bg-gradient-to-r from-transparent via-gray-400 to-transparent mx-auto mb-8" />
 
-          <p className="text-base md:text-lg lg:text-xl text-gray-200 max-w-3xl mx-auto mb-12 font-light leading-relaxed fade-in" style={{ animationDelay: '0.8s' }}>
+          <p className="text-base md:text-lg lg:text-xl text-gray-200 max-w-3xl mx-auto mb-12 font-light leading-relaxed fade-in drop-shadow-lg" style={{ animationDelay: '0.8s', textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
             Jothom Construction delivers world-class structures engineered with integrity and innovation.
           </p>
 
-          <button className="group relative px-12 py-5 bg-transparent border-2 border-gray-300 text-white font-medium tracking-wider uppercase overflow-hidden transition-all duration-500 hover:text-gray-900 fade-in" style={{ animationDelay: '1s' }}>
+          <button className="group relative px-12 py-5 bg-transparent border-2 border-gray-300 text-white font-medium tracking-wider uppercase overflow-hidden transition-all duration-500 hover:text-gray-900 fade-in drop-shadow-lg" style={{ animationDelay: '1s', textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
             <span className="relative z-10">Start Your Project</span>
             <div className="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
             <div className="absolute inset-0 border border-gray-300 transform translate-x-2 translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
